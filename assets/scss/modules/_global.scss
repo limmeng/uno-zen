@@ -27,7 +27,7 @@ mark {
 }
 
 ::selection {
-  background: lighten($secondary-color, 26%);
+  // background: lighten($secondary-color, 26%);
 }
 
 :scrollbar {
@@ -200,7 +200,7 @@ main {
   margin: 10px auto;
 
   &.long {
-    width: 30%;
+    width: 50%;
   }
 
   &.short {

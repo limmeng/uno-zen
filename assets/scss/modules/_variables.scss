@@ -15,9 +15,16 @@ $red                   : #e74c3c;
 $purple                : #493252;
 $slate                 : #3d4260;
 $yellow                : #FFC107;
+$indigo                : #212121;
+$brown                 : #5D4037;
+$blue-grey             : #37474F;
 
-$primary-color         : lighten($red, 5%);
-$secondary-color       : $yellow;
+// aside_hover color
+$aside_hover_color     : #FFFFFF;
+
+// $primary-color         : lighten($red, 5%);
+$primary-color         : lighten($brown, 5%);
+$secondary-color       : $blue-grey;
 
 $cover-secondary       : rgba(#5f2c82, .1);
 $cover-primary         : rgba(#49a09d, .2);
@@ -25,14 +32,14 @@ $cover-primary         : rgba(#49a09d, .2);
 $link-color            : $gray-darkest;
 $hover-color           : $primary-color;
 
-$divider-color         : rgba(255, 255, 255, .14);
+$divider-color         : rgba(255, 255, 255, .35);
 
 /* FONT */
 
 $unit                  : 1rem;
 
-$sans-font             : 'Raleway', sans-serif;
-$serif-font            : 'Roboto Slab', serif;
+$sans-font             : 'Raleway', "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+$serif-font            : 'Roboto Slab', "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", serif;
 $code-font             : Consolas, "Liberation Mono", Menlo, Courier, monospace;
 $quote-font            : "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
 

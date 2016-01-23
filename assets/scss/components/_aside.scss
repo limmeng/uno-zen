@@ -25,7 +25,7 @@
 
     @include font-shadow;
     @include center-absolute;
-    @include background-filter;
+    // @include background-filter;
   }
 }
 
@@ -45,7 +45,7 @@
       margin: 0;
 
       font-family: $sans-font;
-      font-size: $unit * 1.6;
+      font-size: $unit;
       font-weight: $font-weight-bold;
 
       letter-spacing: .05rem;
@@ -58,10 +58,12 @@
       color: $gray-lightest;
     }
     > img {
-      width: 7rem;
+      width: 5rem;
 
       border: 2px solid rgba($primary-color, .1);
       box-shadow: 0 0 1px 1px rgba(000, 000, 000, .3);
+
+      margin-bottom: 0.5rem;
     }
   }
 }
@@ -105,7 +107,9 @@
           @include btn-cover;
 
           &:hover {
-            color: $hover-color;
+            color: $aside_hover_color;
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
           }
         }
       }
@@ -114,11 +118,11 @@
   &.right {
     display: block;
     margin: .5rem;
+    margin-top: 9rem;
     .social {
       margin: 0;
       &.item {
         display: inline-block;
-        margin: 0 4px 0 0;
 
         line-height: 1em;
         a {
@@ -134,7 +138,7 @@
             font-size: 1.7em;
           }
           &:hover {
-            color: $hover-color;
+            color: $aside_hover_color;
           }
         }
       }
